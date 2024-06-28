@@ -1,0 +1,13 @@
+layout: layouts/experience.tsx
+title: Experience
+url: /experience/
+indexable: true
+
+menu:
+  title:
+  visible: true
+  order: 4
+
+header:
+  title: Professional Experience
+  description: Explore my professional experience, detailing my roles and contributions at the two companies where I have worked. Learn about the projects I have completed, the technologies I have used, and the skills I have developed throughout my career in web development and software engineering.

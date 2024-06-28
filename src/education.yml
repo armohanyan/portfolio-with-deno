@@ -1,0 +1,13 @@
+layout: layouts/education.tsx
+title: Education
+url: /education/
+indexable: true
+
+menu:
+  title:
+  visible: true
+  order: 3
+
+header:
+  title: Educational Background
+  description: Explore my educational qualifications, highlighting the degrees and certifications that underpin my expertise in web development and software engineering. Discover the foundation of knowledge that drives my innovative approach to technology.

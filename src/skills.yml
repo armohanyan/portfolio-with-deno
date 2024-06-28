@@ -1,0 +1,13 @@
+layout: layouts/skills.tsx
+title: Skills
+url: /skills/
+indexable: true
+
+menu:
+  title:
+  visible: true
+  order: 3
+
+header:
+  title: Technical Skills and Expertise
+  description: Delve into my technical skills and expertise. While JavaScript is my main programming language, I have also encountered Python, C++, and Java during my university studies. This section showcases my proficiency in various programming languages, frameworks, and tools, highlighting my capability to deliver high-quality web development solutions.
