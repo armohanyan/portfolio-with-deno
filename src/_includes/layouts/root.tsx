@@ -23,7 +23,7 @@ export default (
 
       <meta name="supported-color-schemes" content="light dark"/>
       <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)"/>
-        <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)"/>
+      <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)"/>
 
       <meta name="title" content={`${title} - ${site.title}`}/>
       <meta name="description" content={excerpt || site.description}/>
@@ -56,15 +56,15 @@ export default (
         />
       )}
 
-      <meta name="twitter:title" content={`${title} - ${site.title}`}/>
+      <meta name="linkedin:title" content={`${title} - ${site.title}`}/>
       <meta
-        name="twitter:description"
+        name="linkedin:description"
         content={excerpt || site.description}
       />
-      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="linkedin:card" content="summary_large_image"/>
       {type && type === "post" && (
         <meta
-          name="twitter:image"
+          name="linkedin:image"
           content={`${
             urlFilter!(
               `/images/og/${
@@ -76,13 +76,22 @@ export default (
         />
       )}
 
-      <meta name="twitter:creator" content={site.twitter.user}/>
-      <meta name="twitter:site" content={site.twitter.user}/>
+      <meta name="linkedin:creator" content={site.twitter.user}/>
+      <meta name="linkedin:site" content={site.twitter.user}/>
 
       <meta itemProp="name" content={site.title}/>
       <meta itemProp="url" content={urlFilter!("/", true)}/>
       <meta itemProp="creator" content={site.author.name}/>
+      <meta property="og:type" content="profile"/>
+      <meta property="og:title" content="Armen Ohanyan LinkedIn Profile"/>
+      <meta property="og:url" content="https://www.linkedin.com/in/armen-ohanyan-605bb0220/"/>
+      <meta property="profile:first_name" content="Armen"/>
+      <meta property="profile:last_name" content="Ohanyan"/>
+      <meta property="profile:username" content="armen-ohanyan-605bb0220"/>
 
+      <meta property="og:type" content="profile"/>
+      <meta property="og:title" content="Armen Ohanyan GitHub Profile"/>
+      <meta property="og:url" content="https://github.com/armohanyan"/>
       <link
         rel="sitemap"
         type="application/xml"
@@ -102,7 +111,7 @@ export default (
     <div className="flex w-full">
       <div className="fixed inset-0 flex justify-center sm:px-8">
         <div className="flex w-full max-w-7xl lg:px-8">
-        <div className="w-full bg-white ring-1 ring-zinc-100 dark-bg-zinc-900 dark-ring-zinc-300/20"></div>
+          <div className="w-full bg-white ring-1 ring-zinc-100 dark-bg-zinc-900 dark-ring-zinc-300/20"></div>
         </div>
       </div>
 

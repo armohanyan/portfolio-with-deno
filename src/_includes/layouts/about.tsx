@@ -20,7 +20,7 @@ export default (
                        className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark-bg-zinc-800"
                        sizes="(min-width: 1024px) 32rem, 20rem"
                        style="color: transparent;"
-                       src={urlFilter!("/images/portrait.jpg")}
+                       src={urlFilter!("/images/me-avatar.jpg")}
                   />
 
                 </div>

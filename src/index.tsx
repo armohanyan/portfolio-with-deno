@@ -7,7 +7,7 @@ export const title = "Home";
 export const layout = "layouts/root.tsx";
 
 const header = {
-  title: 'Armen Ohanyan: Strong Middle Software Engineer',
+  title: 'Armen Ohanyan: Senior Javascript Full Stack Software Engineer',
 }
 
 export default (
