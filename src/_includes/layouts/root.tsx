@@ -106,6 +106,9 @@ export default (
       />
 
       <link rel="manifest" href={urlFilter!("/manifest.json")}/>
+
+      <link rel="icon"  href="/images/favicon.png"/>
+
     </head>
     <body className="flex h-full bg-zinc-50 dark-bg-black">
     <div className="flex w-full">
